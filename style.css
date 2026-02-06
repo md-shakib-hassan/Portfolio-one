@@ -6,9 +6,12 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+/* navibar start */
 .navibar{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 210px;
 }
 ul{
     display: flex;
@@ -19,16 +22,115 @@ ul{
     line-height: 1px;
     letter-spacing: 0%;
     text-align: left;
-    margin-left: 220px;
-    margin-top: 50px;
+    
   
 }
+.header{
+    /* height: 837px; */
+    background-image: url(/images/developerfinal.png),url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 
+    
+}
  .name-decoration{
     color: rgba(253, 110, 10, 1);
  }
-.unoder-list{
-    margin-left: 500px;
-    margin-top: 50px;
+
+nav ul li {
+    list-style: none;
+    
+} 
+nav ul{
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgba(71, 71, 71, 1);
+}
+
+.btn{
+    background-color: rgba(253, 110, 10, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* banner start */
+
+.banner .banner-title{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    color: rgba(71, 71, 71, 1);
+}
+.banner .banner-name{
+    color: rgba(24, 24, 24, 1);
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 0%;
     
 }
+.banner-description{
+    color: rgba(117, 117, 117, 1);
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 500px;
+    margin-left: 220px;
+
+}
+
+.banner img {
+    width: 500px;
+}
+
+
+
+
+
+
+.cv a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: sans-serif;
+    font-weight: 600;
+    width: 180px;
+    height: 55px;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner .contact  {
+    text-decoration: none;
+    border: 1px solid rgba(253, 110, 10, 1);
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+  
+}
+.contact a{
+    text-decoration: none;
+    color:rgba(253, 110, 10, 1);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+
+}
+
