@@ -97,10 +97,6 @@ nav ul li a{
 }
 
 
-
-
-
-
 .cv a {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
@@ -149,6 +145,7 @@ nav ul li a{
     width: 700px;
     height: 350px;
     margin: 120px auto;
+    border: 1px solid rgba(0, 0, 0, 1);
 }
 
 .about-container .about-description{
@@ -188,3 +185,152 @@ nav ul li a{
 }
 
 /* skill container start */
+.what-i-do{
+    margin-top: 30px;
+}
+
+.what-i-do h1 {
+    text-align: center;
+}
+
+.work-experience{
+    width: 700px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: rgba(117, 117, 117, 1);
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 180px;
+    gap: 20px;
+}
+
+.skills-container .skill{
+    width: 250px;
+    height: 350px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    font-family: sans-serif;
+
+}
+
+.skill p {
+    /* padding-left: 0; */
+    padding-right: 30px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.skills-container h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.skill{
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.06);
+    
+}
+.skill-content{
+    padding: 20px 20px;
+    
+}
+
+
+
+/* Resume start */
+.resume{
+    margin-top: 120px;
+   
+}
+.resume h2{
+    text-align: center;
+    color: rgba(24, 24, 24, 1);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.resume h3{
+    color: rgba(71, 71, 71, 1);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+}
+
+.resume-container {
+    margin-top: 70px;
+}
+
+.resume-des{
+    width: 300px;
+    height: 170px;
+    gap: 30px;
+    border-bottom: 1px	solid
+rgba(209, 209, 209, 1);
+
+}
+
+.resume-title{
+    color: rgba(71, 71, 71, 1);
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 26px;
+    text-align: left;
+}
+
+
+.resume-subtitle{
+    color: rgba(117, 117, 117, 1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+
+}
+
+.skill-description{
+    color: rgba(117, 117, 117, 1);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.resume-container{
+    display: flex;
+    gap: 100px;
+    margin: 0 300px;
+}
+
+.resume-box .last{
+    border-bottom: none;
+}
+
+.resume-btn{
+    background-color: rgba(253, 110, 10, 1);
+    color: white;
+    border: none;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+
+.resume-button{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
