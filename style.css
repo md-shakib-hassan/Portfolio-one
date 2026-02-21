@@ -99,56 +99,35 @@ nav ul li a{
     width: 500px;
 }
 
-.in-banner-btn{
-    display: flex;
+
+.in-banner-btn {
+  display: flex;
+  gap: 10px;
 }
 
-.cv a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-    font-family: sans-serif;
-    font-weight: 600;
-    width: 180px;
-    height: 20px;
-    font-size: 15px;
-    line-height: 15px;
-    letter-spacing: 0%;
-    text-align: center;
-   
-
+.btn {
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  /* gap: 8px; */
 }
 
-.banner .contact  {
-    text-decoration: none;
-    border: 1px solid rgba(253, 110, 10, 1);
-    width: 140px;
-    height: 48px;
-    border-radius: 5px;
-  
+/* Download CV button */
+.cv {
+  background: #ff7a00;
+  color: white;
 }
-.contact{
-    margin-left: 30px;
-}
-.contact a{
-    text-decoration: none;
-    color:rgba(253, 110, 10, 1);
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    letter-spacing: 0%;
-    text-align: center;
 
+/* Contact button */
+.contact {
+  border: 1px solid #ff7a00;
+  color: #ff7a00;
+  background: transparent;
 }
-.cv a{
-    width: 130px;
-    height: 27px;
-   
-}
-.contact a{
-    width: 120px;
-    height: 27px;
-    
-}
+
 /* about me start  */
 
 .main{
@@ -418,5 +397,8 @@ rgba(209, 209, 209, 1);
         font-weight: bold;
         font-size: 15px;
 }
+
+
+
 
 
