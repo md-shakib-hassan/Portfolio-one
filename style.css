@@ -58,7 +58,7 @@ nav ul li a{
 .btn{
     background-color: rgba(253, 110, 10, 1);
     color: rgba(255, 255, 255, 1);
-    width: 130px;
+    width: 150px;
     height: 50px;
     border-radius: 5px;
     border: none;
@@ -99,6 +99,9 @@ nav ul li a{
     width: 500px;
 }
 
+.in-banner-btn{
+    display: flex;
+}
 
 .cv a {
     text-decoration: none;
@@ -106,20 +109,25 @@ nav ul li a{
     font-family: sans-serif;
     font-weight: 600;
     width: 180px;
-    height: 55px;
+    height: 20px;
     font-size: 15px;
     line-height: 15px;
     letter-spacing: 0%;
     text-align: center;
+   
+
 }
 
 .banner .contact  {
     text-decoration: none;
     border: 1px solid rgba(253, 110, 10, 1);
     width: 140px;
-    height: 50px;
+    height: 48px;
     border-radius: 5px;
   
+}
+.contact{
+    margin-left: 30px;
 }
 .contact a{
     text-decoration: none;
@@ -131,7 +139,16 @@ nav ul li a{
     text-align: center;
 
 }
-
+.cv a{
+    width: 130px;
+    height: 27px;
+   
+}
+.contact a{
+    width: 120px;
+    height: 27px;
+    
+}
 /* about me start  */
 
 .main{
